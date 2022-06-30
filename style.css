@@ -4,6 +4,13 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+hr {
+  border-style: dotted none none none;
+  width: 8%;
+  border-width: 10px;
+  color: grey;
+}
+
 h1 {
   margin: 50px auto 0 auto;
   font-family: 'Sacrament', cursive;
@@ -62,4 +69,39 @@ h3 {
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #66BfbF;
+  line-height: 3;
+  position: relative;
+  top: 80px;
+  color: #EAF6F6;
+}
+
+.footer-link {
+  color: #11999E;
+  padding: 20px;
+}
+
+.p {
+  color: #EAF6F6;
+  text-align: center;
+}
+
+.contact-me {
+  line-height: 1;
+}
+
+.contact {
+  line-height: 3;
+  display: inline-block;
+  background-color: #11999E;
+  width: 300px;
+  position: relative;
+  top: 30px;
+}
+
+.btn {
+  color: #EAF6F6
 }
